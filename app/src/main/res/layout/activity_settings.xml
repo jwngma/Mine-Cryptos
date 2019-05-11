@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingsActivity">
+
+
+    <include
+        android:id="@+id/setting_toolbar"
+        layout="@layout/toolbar_layout" />
+
+
+    <RelativeLayout
+        android:layout_below="@id/setting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/text_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Settings"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_setting"
+            android:id="@+id/lv_account_setting">
+
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

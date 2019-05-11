@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_logo"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_btc"
+            android:icon="@drawable/btc"
+            android:title="Bitcoin" />
+        <item
+            android:id="@+id/nav_eth"
+            android:icon="@drawable/eth"
+            android:title="Etherium" />
+        <item
+            android:id="@+id/nav_ltc"
+            android:icon="@drawable/btc"
+            android:title="Litecoin" />
+        <item
+            android:id="@+id/nav_doge"
+            android:icon="@drawable/eth"
+            android:title="Dogecoin" />
+        <item
+            android:id="@+id/nav_xrp"
+            android:icon="@drawable/btc"
+            android:title="Ripple" />
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/btc"
+            android:title="Dash" />
+        <item
+            android:id="@+id/nav_mnr"
+            android:icon="@drawable/eth"
+            android:title="Monero" />
+        <item
+            android:id="@+id/nav_bcn"
+            android:icon="@drawable/eth"
+            android:title="ByteCoin" />
+
+    </group>
+
+
+    <item
+        android:checkableBehavior="single"
+        android:title="Commute">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="Rate" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help_icon"
+                android:title="Help" />
+
+        </menu>
+    </item>
+
+</menu>

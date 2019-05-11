@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464492299850",
+    "firebase_url": "https://crypto-mining-app.firebaseio.com",
+    "project_id": "crypto-mining-app",
+    "storage_bucket": "crypto-mining-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464492299850:android:f48815efc5abe7f0",
+        "android_client_info": {
+          "package_name": "com.store.minecryps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464492299850-7og665mo1o9k7jga2at0rc0i1blel29d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.store.minecryps",
+            "certificate_hash": "f2294880919370566529d8a35c68a3fc2866d88e"
+          }
+        },
+        {
+          "client_id": "464492299850-bd8pp34edf57jfu742r52c7phlct843j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpDZA1tIKF8auRoBTa_GiMkXevxdhZNeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464492299850-bd8pp34edf57jfu742r52c7phlct843j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
